@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aviation Term Processor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="app-container">
+    <h1 class="app-title">🛫 Aviation Term Processor</h1>
+
+    <div class="tab-content active" id="upload-file">
+      <input type="file" id="fileInput" accept=".pdf,.docx,.txt" />
+      <button class="primary-btn" id="uploadBtn">📤 Upload & Process</button>
+      <div class="output" id="fileOutput"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"><span id="toast-msg"></span></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
